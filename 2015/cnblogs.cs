@@ -147,7 +147,7 @@ private void WriteSina(string sTitle,string sHtml)
 //		var un = brwBlog.SelectSingleNode("#loginName");
 //		var pw = brwBlog.SelectSingleNode("#loginPass");
 //		var btn = brwBlog.SelectSingleNode("#loginButton");
-//		un.Attr("value","121285904@qq.com");
+//		un.Attr("value","2222@qq.com");
 //		pw.Attr("value","fsdfsdf,.");
 //		btn.Click();
 //		brwBlog.Ready(10);
