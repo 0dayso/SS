@@ -14,6 +14,6 @@
 		var register = net.SelectSingleNode("td:eq(3)");
 		var price = net.SelectSingleNode("td:eq(5)");
 		
-		Logger.Log(name.Text().Trim() + " " +　price.Text() + " " + register.Text()  + " " + name.Attr("href"));
+		Logger.Log(name.Text().Trim() + " " +　price.Text().Replace("元","") + " " + register.Text()  + " " + name.Attr("href"));
 	}
 }
