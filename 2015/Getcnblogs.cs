@@ -12,8 +12,8 @@
 		var un = brwSina.SelectSingleNode("#loginName");
 		var pw = brwSina.SelectSingleNode("#loginPass");
 		var btn = brwSina.SelectSingleNode("#loginButton");
-		un.Attr("value","121285904@qq.com");
-		pw.Attr("value","fwdd1127,.");
+		un.Attr("value","2222@qq.com");
+		pw.Attr("value","xxxx,.");
 		btn.Click();
 		brwSina.Ready(10);
 	}
